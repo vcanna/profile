@@ -1,0 +1,54 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    background-color: ghostwhite;
+}
+
+header {
+    font-size: 20px;
+    line-height: normal;
+}
+
+link {
+    color: olive;
+    text-decoration: orangered;
+}
+
+a:hover{
+    color: gray;
+}
+
+p{
+    color: gray;
+}
+
+.container {
+    width: 500px;   
+    margin: 0 auto; 
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
